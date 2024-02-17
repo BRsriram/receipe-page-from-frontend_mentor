@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(330, 100%, 98%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.wrapper {
+  width: 400px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+figure {
+  padding: 1rem;
+}
+img {
+  border-radius: 8px;
+}
+h1,
+p {
+  padding: 5px 16px;
+  text-align: justify;
+}
+aside {
+  padding: 1rem;
+}
+aside div {
+  background-color: hsl(330, 100%, 98%);
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+ul {
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+li {
+  padding: 0.3rem;
+}
+h2 {
+  padding: 6px 16px;
+}
+.main-content ul {
+  padding: 5px 15px;
+}
+.main-content2 {
+  padding: 20px;
+}
+.main-content2 ol {
+  padding: 5px 15px;
+  text-align: justify;
+}
+.main-content2 h2 {
+  padding: 5px 0px;
+}
+table,
+footer {
+  padding: 1rem 0.5rem;
+}
+td {
+  width: 290px;
+  padding: 0.5rem;
+  height: 20px;
+}
+
+hr {
+  width: 90%;
+  margin: 0 auto;
+}
+h2,
+h4 {
+  color: hsl(332, 51%, 32%);
+}
+h1 {
+  font-family: "Young Serif", serif;
+}
+p,
+li,
+h2,
+td {
+  font-family: "Outfit", "sans-serif";
+  font-weight: 400;
+}
+b {
+  font-family: "Outfit", "sans-serif";
+}
+
+h2,
+.Secdata {
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+}
+td {
+  border-top: 1px solid gray;
+}
